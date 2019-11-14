@@ -4,10 +4,10 @@
 <body>
   <!-- Navigation Bar -->
   <ul class="nav">
-    <li><a href="#index">Home</a></li>
-    <li><a href="#competitive">Competitive</a></li>
-    <li><a href="#media">Media</a></li>
-    <li><a href="#lore">Lore</a></li>
+    <li><a href="index.html">Home</a></li>
+    <li><a href="esports.html">Esports</a></li>
+    <li><a href="media.html">Media</a></li>
+    <li><a href="lore.html">Lore</a></li>
   </ul>
   <div id="content" class="info">
     Welcome. This site will give you an assortment of information about Overwatch, the competitive scene, media, and a basic lore breakdown.
@@ -15,15 +15,17 @@
 
 
   <div class="row">
-    <div class="column" style="background-color:#dadada;">
-      <h2><img src="owlogo.svg" alt="ow logo" class="img"><br>Overwatch</h2>
+    <div class="column">
+      <h2>Overwatch</h2>
       <p>Developed by Blizzard Entertainment released in may of 2016. Available on the following platforms:<br>
          <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a>, Xbox One, Playstation 4, and Nintendo Switch</p>
 
     </div>
-    <div class="column" style="background-color:#dadada">
-      <h2></h2>
-      <p></p>
+    <div class="column">
+      <h2>What is the main objective?</h2>
+      <p>Players are placed in a 6v6 scenario, typically with 2 players on each
+        class: Tank, Damage, and Support. Each role has a different style kit and plays a critical role in contributing to the outcome of the game. <br><br>
+      </p>
     </div>
   </div>
 
@@ -31,6 +33,7 @@
 <style>
 html {
   font-family: helvetica;
+  background-color: #000000;
 }
 .entryleft {
 	padding: 10px 10px;
@@ -47,6 +50,7 @@ html {
   float: left;
   width: 50%;
   padding: 10px;
+  color: #fff;
 }
 .row:after { /* Credit: W3 Schools */
   content: "";
@@ -55,7 +59,8 @@ html {
 }
 .nav {
   list-style-type: none;
-  background-color: #333;
+  background-color: #FA9C1D;
+  border-radius: 1px;
   overflow: hidden;
   margin: 0;
   padding: 0;
@@ -70,9 +75,10 @@ li a {
   transition: background-color .3s linear;
 }
 .info {
-  background-color: #dadada;
-  padding: 10px 10px;
-  border-radius: 6px;
+  color: #fff;
+	background-color: #111;
+	padding: 10px 10px;
+	border-radius: 6px;
 }
 li {
   float: left;
