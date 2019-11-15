@@ -13,7 +13,7 @@
     Welcome. This site will give you an assortment of information about Overwatch, the competitive scene, media, and a basic lore breakdown.
   </div>
 
-
+<div class="content">
   <div class="row">
     <div class="column">
       <h2>Overwatch</h2>
@@ -28,12 +28,17 @@
       </p>
     </div>
   </div>
-
+  <div class="push"></div>
+</div>
+  <footer class="owfooter">
+          <h6>About</h6>
+          <p>Overwatch Links</p>
+</footer>
 </body>
 <style>
 html {
   font-family: helvetica;
-  background-color: #000000;
+  background-color: #222;
 }
 .entryleft {
 	padding: 10px 10px;
@@ -86,6 +91,34 @@ li {
 li a:hover {
   background-color: transparent;
   background-color: #555;
+}
+.owfooter a {
+    text-decoration: none;
+    color: #6495ED;
+}
+.owfooter {
+  background-color:#26272b;
+  padding:45px 0 20px;
+  font-size:15px;
+  line-height:24px;
+  color:#737373;
+}
+.owfooter hr {
+  border-top-color:#bbb;
+  opacity:0.5
+}
+.owfooter hr.small {
+  margin:20px 0
+}
+.owfooter h6 {
+  color:#fff;
+  font-size:16px;
+  text-transform:uppercase;
+  margin-top:5px;
+  letter-spacing:2px
+}
+.content {
+  min-height: calc(100vh - 255px);
 }
 </style>
 </html>
